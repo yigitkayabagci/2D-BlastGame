@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6977861999035336204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181176407140247335}
+  - component: {fileID: 3424638368682767145}
+  - component: {fileID: 3911869480325494497}
+  - component: {fileID: 7454273254712396539}
+  m_Layer: 5
+  m_Name: ObstacleEffectPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &181176407140247335
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6977861999035336204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 25, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3424638368682767145
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6977861999035336204}
+  m_CullTransparentMesh: 1
+--- !u!114 &3911869480325494497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6977861999035336204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7454273254712396539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6977861999035336204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a9ccef27f2e4ece9b17c840667cbe8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleParticleSets:
+  - obstacleType: Box
+    sprites:
+    - {fileID: 8033122460991593567, guid: 97ce31039a5fba049b1b484ec9d61afc, type: 3}
+    - {fileID: 2595786937247043147, guid: 235ee07cf655dd14381986beb78dd7d8, type: 3}
+    - {fileID: 2053866050121038535, guid: b213cc89f216ec1488ae5c858c4cbffb, type: 3}
+  - obstacleType: Stone
+    sprites:
+    - {fileID: 4097111511846903190, guid: 7021810ffb334104c827a6122a1e42eb, type: 3}
+    - {fileID: -2203629019558354351, guid: a9ac7080edaa99247aed44d7c9996b77, type: 3}
+    - {fileID: 7798741131455143084, guid: 11dc63df02254d441a43a5342a2327a1, type: 3}
+  - obstacleType: Vase
+    sprites:
+    - {fileID: 4095080387558074076, guid: a27ed36f71728d34da9e6794ae9d4fa4, type: 3}
+    - {fileID: 6406247513108631659, guid: 75f2ed9f2b931cb44a04edcf9dc2a0de, type: 3}
+    - {fileID: -2350886445216773880, guid: c6f0b46ed347f5c4a8050582ff106822, type: 3}
+  effectDuration: 1.8
+  xOffsetRange: {x: -50, y: 50}
+  yOffsetRange: {x: -100, y: -50}

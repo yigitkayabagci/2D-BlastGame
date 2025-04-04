@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ff4c7a643aa04e94eb6a65acd1136c49
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cellPrefab: {fileID: 1175616940290556330, guid: be0e3abb7c83da34c9ab62c16f5b40e9, type: 3}
+  - gridParent: {instanceID: 0}
+  - cubePrefab: {fileID: 4493699327983446610, guid: 2a620f27c9cc7574f98b8ecfc719f266, type: 3}
+  - boxPrefab: {fileID: 6856132193451117393, guid: 608a03b24b453774d90848917a107545, type: 3}
+  - stonePrefab: {fileID: 1180329709470149274, guid: 03d695f866368af4cac92060546342d5, type: 3}
+  - vasePrefab: {fileID: 3093119940733325486, guid: 63e6be14d11d7774a9927789be819855, type: 3}
+  - RocketPrefab: {fileID: 5894227238163648017, guid: 7389c9d44c88cf8409c4beab63edddfa, type: 3}
+  - upProjectilePrefab: {fileID: 3984095828901968978, guid: f99ebbd11113ce94c80ac7aa43cb8bd5, type: 3}
+  - downProjectilePrefab: {fileID: 8019563576536273885, guid: 5be5dd565b32fd944a609dcfb9a052e5, type: 3}
+  - leftProjectilePrefab: {fileID: 7818097246725377900, guid: 9bcd4bfc1b48bba4e88c51063d5f5eb4, type: 3}
+  - rightProjectilePrefab: {fileID: 5383286617802029468, guid: 1ee90d4df5c649646b60c9da5245a55c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
